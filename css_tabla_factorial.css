@@ -1,0 +1,15 @@
+/* Css de la tabla */
+table { /* Selecciona todos los elementos <table> */
+    border: 2px solid black; /* Aplica un borde negro de 2 píxeles alrededor de toda la tabla */
+    border-collapse: collapse; /* Colapsa los bordes adyacentes, haciendo que se vean como un solo borde */
+    width: 300px; /* Establece el ancho de la tabla a 300 píxeles */
+}
+
+td { /* Selecciona todas las celdas de la tabla (<td>) */
+    border: 2px solid black; /* Aplica un borde negro de 2 píxeles alrededor de cada celda */
+}
+
+tr { /* Selecciona todas las filas de la tabla (<tr>) */
+    border: 2px solid black; /* Aplica un borde negro de 2 píxeles alrededor de cada fila (aunque esto no afectará visualmente a las filas, ya que los bordes de las celdas son los que se ven) */
+}
+
